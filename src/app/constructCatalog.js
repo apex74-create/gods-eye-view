@@ -38,6 +38,9 @@ import { createApplicationDroneAirspace } from './layers/droneAirspace.js';
 import { createApplicationNews } from './layers/news.js';
 import { createApplicationWildlifeSightings } from './layers/wildlifeSightings.js';
 import { createApplicationCables } from './layers/submarineCables.js';
+import { createApplicationApex } from './layers/apex.js';
+import { createApplicationApexCb } from './layers/apexCb.js';
+import { createApplicationApexHam } from './layers/apexHam.js';
 import { createOsmOverlayLayers } from '../data/osmOverlays.js';
 import { createApplicationStreetLevel } from './layers/streetLevel.js';
 import { createInfrastructureLayers } from '../data/infrastructure.js';
@@ -182,6 +185,9 @@ export function createApplicationCatalog({
         createApplicationTraffic({ source: sources.traffic, surface }),
         createApplicationCctv({ surface, source: sources.cctv }),
         createApplicationRadio({ surface, source: sources.radio }),
+        createApplicationApex({ source: sources.apex }),
+        createApplicationApexCb({ source: sources['apex-cb'] }),
+        createApplicationApexHam({ source: sources['apex-ham'] }),
         createApplicationTransit({
           surface,
           source: sources.transit,
