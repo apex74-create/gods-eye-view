@@ -4646,5 +4646,21 @@
   "1–3 days": "1–3 дні",
   "Older or unknown": "Старше або невідомо",
   "Colour shows the age of each area.": "Колір показує вік кожної ділянки.",
-  "Age counts from WFIGS mapping time, else the record's last edit. Perimeters simplified to ~100 m.": "Вік — від картування WFIGS, інакше від останнього редагування запису. Контури спрощено до ~100 м."
+  "Age counts from WFIGS mapping time, else the record's last edit. Perimeters simplified to ~100 m.": "Вік — від картування WFIGS, інакше від останнього редагування запису. Контури спрощено до ~100 м.",
+  "Apex telemetry source unavailable": "Apex telemetry source unavailable",
+  "Comms porch source unavailable": "Comms porch source unavailable",
+  "NO PIPE": "NO PIPE",
+  "SCANNING": "SCANNING",
+  "HOLDING": "HOLDING",
+  "Apex comms": "Apex comms",
+  "APEX COMMS": "APEX COMMS",
+  "ENCRYPTED CB": "ENCRYPTED CB",
+  "Connection": "Connection",
+  "Channel": "Channel",
+  "Scan": "Scan",
+  "Last burst": "Last burst",
+  "HAM RADIO": "HAM RADIO",
+  "Apex Telemetry": "Apex Telemetry",
+  "Encrypted CB": "Encrypted CB",
+  "Ham Radio": "Ham Radio"
 }

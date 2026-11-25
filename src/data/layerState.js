@@ -632,6 +632,13 @@ export const LAYER_STATE_REGISTRY = Object.freeze([
     token: 'p',
     disposition: 'enabled-only',
   }),
+  Object.freeze({ id: 'apex', token: '03', disposition: 'enabled-only' }),
+  Object.freeze({ id: 'apex-cb', token: '04', disposition: 'enabled-only' }),
+  Object.freeze({
+    id: 'apex-ham',
+    token: '05',
+    disposition: 'enabled-only',
+  }),
   Object.freeze({
     id: 'bhote-koshi-2026',
     token: 'h',

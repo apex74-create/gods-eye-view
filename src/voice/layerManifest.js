@@ -485,6 +485,11 @@ export const VOICE_OFF_LAYERS = Object.freeze({
   'wildlife-sightings':
     'community observation layer; no room in the prompt budget',
   rail: 'train layer; no room in the prompt budget, and "trains" still names transit',
+  // The Apex overlay layers are new: the telemetry layer has no voice
+  // query surface yet, and the comms pipes have no porch wire to control.
+  apex: 'house telemetry layer; voice tools are a later step',
+  'apex-cb': 'comms porch has no wire yet; nothing for voice to control',
+  'apex-ham': 'comms porch has no wire yet; nothing for voice to control',
 });
 
 const TYPE_NAMES = Object.freeze({

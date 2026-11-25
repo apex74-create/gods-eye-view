@@ -20,6 +20,9 @@ test('reference factories retain compatibility without starting acquisition or s
     'wildlife-sightings',
     'cables',
     'gnss-integrity',
+    'apex',
+    'apex-cb',
+    'apex-ham',
   ]);
   assert.notEqual(first.earthquakes, second.earthquakes);
   assert.notEqual(first['air-quality'], second['air-quality']);

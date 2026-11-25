@@ -56,6 +56,9 @@ export const CATALOG_SOURCE_CONTRACTS = Object.freeze({
   cables: contract(['telegeography-submarine-cables'], ['fetch']),
   transit: contract(['transit'], ['requestSnapshot', 'getHistory']),
   rail: contract(['rail'], ['requestSnapshot', 'getFeeds']),
+  apex: contract(['apex'], ['getSnapshot']),
+  'apex-cb': contract(['apex-cb'], ['getPorchState']),
+  'apex-ham': contract(['apex-ham'], ['getPorchState']),
 });
 
 /** An omitted provider is unavailable, never an authoritative empty dataset. */
