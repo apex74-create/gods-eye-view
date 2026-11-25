@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Apex God\'s Eye View</string>
+    <string name="title_activity_main">Apex God\'s Eye View</string>
+    <string name="package_name">com.apexairsolutions.godseye</string>
+    <string name="custom_url_scheme">com.apexairsolutions.godseye</string>
+</resources>
